@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client_App</title>
+    <link rel="stylesheet" href="css/allColor.css">
+</head>
+<body>
+
+    <header class="header">
+        <search class="header_Search">
+            <form action="#" class="header_Search_Form">
+                <input class="header_Input_line" type="text" placeholder="Поиск">
+                <button class="header_Button_Search" type="button">Найти</button>
+            </form>
+        </search>
+
+        <navigation class="header_Nav">
+            <button id="refresh" class="header_Nav_Button">Обновить</button>
+            <button id="addNewClient" class="header_Nav_Button">+</button>
+            <button id="clients" class="header_Nav_Button">Клиенты</button>
+            <button id="warehouse" class="header_Nav_Button">Склад</button>
+        </navigation>
+    </header>
+
+    <content class="content" id="content">
+        <content_Line class="content_Line">
+            <content_line_Item_Table class="content_line_Items_Table">VIN №</content_line_Item_Table>
+            <content_line_Item_Table class="content_line_Items_Table">Ф.И.О</content_line_Item_Table>
+            <content_line_Item_Table class="content_line_Items_Table">Телефон</content_line_Item_Table>
+            <content_line_Item_Table class="content_line_Items_Table">Причина обр.</content_line_Item_Table>
+            <content_line_Item_Table class="content_line_Items_Table">Марка</content_line_Item_Table>
+            <content_line_Item_Table class="content_line_Items_Table">Модель</content_line_Item_Table>
+            <content_line_Item_Table class="content_line_Items_Table">Стоимость з\ч</content_line_Item_Table>
+            <content_line_Item_Table class="content_line_Items_Table">Стоимость раб.</content_line_Item_Table>
+            <content_line_Item_Table class="content_line_Items_Table">Итого</content_line_Item_Table>
+        </content_Line>
+    </content>
+
+    <insertForm class="insertForm" id="insertForm">
+        <!-- <allClients class="allClients" id="allClients">
+            <content_line_Item_Data class="content_line_Items_Table_Data">${itog}</content_line_Item_Data>
+            <content_line_Item_Data class="content_line_Items_Table_Data">${fio}</content_line_Item_Data>
+            <content_line_Item_Data class="content_line_Items_Table_Data">${tel}</content_line_Item_Data>
+            <content_line_Item_Data class="content_line_Items_Table_Data">${prech}</content_line_Item_Data>
+            <content_line_Item_Data class="content_line_Items_Table_Data">${mark}</content_line_Item_Data>
+            <content_line_Item_Data class="content_line_Items_Table_Data">${model}</content_line_Item_Data>
+            <content_line_Item_Data class="content_line_Items_Table_Data">${stoimZ}</content_line_Item_Data>
+            <content_line_Item_Data class="content_line_Items_Table_Data">${stoimR}</content_line_Item_Data>
+            <content_line_Item_Data class="content_line_Items_Table_Data">${stoimZ + stoimR}</content_line_Item_Data>
+        </allClients> -->
+    </insertForm>
+
+    <implementation class="implement_Point" id="implement_Point"></implementation>
+
+    <script src="js/logicNavButtonAdd.js"></script>
+    <script src="js/logicInsertTask.js"></script>
+    <script src="js/logicRefresh.js"></script>
+    
+</body>
+</html>
+
+
+
