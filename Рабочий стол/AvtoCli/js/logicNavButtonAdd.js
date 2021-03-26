@@ -1,7 +1,7 @@
 const addNewClient = document.querySelector('#addNewClient').addEventListener('click', () => {
     let form_New_CLient = ` <form action="#" class="form_Add_New_Client" id="form_New_CLient">
                                 <input type="text" placeholder="Ф.И.О" class="form_Add_New_Client_Item_Fio inpItem" id="form_Add_New_Client_Item_Fio">
-                                <input type="text" placeholder="Телефон"  class="form_Add_New_Client_Item_Tel inpItem" id="form_Add_New_Client_Item_Tel">
+                                <input type="text" placeholder="Телефон  +7" class="form_Add_New_Client_Item_Tel inpItem" id="form_Add_New_Client_Item_Tel">
                                 <input type="text" placeholder="VIN №" maxlength="17" class="form_Add_New_Client_Item_Coment inpItem" id="form_Add_New_Client_Item_Itog">
                                 <input type="text" placeholder="Причина обращения" class="form_Add_New_Client_Item_Prech inpItem" id="form_Add_New_Client_Item_Prech">
                                 <input type="text" placeholder="Марка" class="form_Add_New_Client_Item_Mark inpItem" id="form_Add_New_Client_Item_Mark">
@@ -15,6 +15,7 @@ const addNewClient = document.querySelector('#addNewClient').addEventListener('c
     const insertForm = document.querySelector('#insertForm').insertAdjacentHTML('afterbegin', form_New_CLient); 
 
     const form_Add_New_Client_Item_Button = document.querySelector('#form_Add_New_Client_Item_Button');
+    
         form_Add_New_Client_Item_Button.addEventListener('click', function() {
             const fio = document.querySelector('#form_Add_New_Client_Item_Fio').value;
             const tel = document.querySelector('#form_Add_New_Client_Item_Tel').value;
