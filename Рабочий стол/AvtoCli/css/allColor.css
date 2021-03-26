@@ -90,7 +90,7 @@ body {
 .form_Add_New_Client {
     height: 500px;
     width: 700px;
-    margin-top: 600px;
+    margin-top: 800px;
     position: absolute;
     z-index: 100;
     background-color: rgb(252, 241, 241);
@@ -108,4 +108,26 @@ body {
 .inpItemB {
     margin-top: 25px;
     width: 200px;
+}
+/* ====afterSearch===== */
+.afterSearchList {
+    height: 500px;
+    width: 700px;
+    margin-top: 600px;
+    position: absolute;
+    z-index: 100;
+    background-color: rgb(45, 150, 31);
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.AfterSearchListSpan {
+    text-align: center;
+    margin-top: 25px;
+    width: 450px;
+    color: rgb(252, 241, 241);
+    display: flex;
+    justify-content: space-around;
 }
