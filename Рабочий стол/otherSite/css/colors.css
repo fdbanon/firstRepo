@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-image: url(../img/notebook-1280538_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.HeaderHref {
+    color: wheat;
+    font-family: 'Cinzel', serif;
+    text-decoration: none;
+}
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.leftContent {
+    height: 80vh;
+    width: 50%;
+     margin-top: 20px;
+    /* border: 1px solid black;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.headInContentText {
+    text-decoration: none;
+    color: wheat;
+    font-family: 'Cinzel', serif;
+    font-size: 50px;
+    margin-top: -150px;
+}
+.headInContentTextSpan {
+    color: wheat;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    margin-top: -25px;
+}
+.starContentTextSpan {
+    color: wheat;
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+}
+.rightContentStack {
+    width: 50%;
+}
+
