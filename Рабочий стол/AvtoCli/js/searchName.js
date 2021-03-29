@@ -8,7 +8,7 @@ let header_Button_Search = document.querySelector('#header_Button_Search').addEv
                     let search_Name_Key = localStorage.getItem(header_Input_line_forSearch);
                     
                     let dataParseFromLS = JSON.parse(search_Name_Key);
-
+                    
                     function goInt() {
                         dataParseFromLS.stoimZ = Number.parseInt(dataParseFromLS.stoimZ);
                         dataParseFromLS.stoimR = Number.parseInt(dataParseFromLS.stoimR);

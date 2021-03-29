@@ -27,7 +27,7 @@ const parseDatafromJSON = JSON.parse(getLocalStorageValue);
 
     const task = ` <content_Line class="content_Line_Task">
                         <content_line_Item_Data class="content_line_Items_Table_Data">${itog}</content_line_Item_Data>
-                        <content_line_Item_Data class="content_line_Items_Table_Data">${fio}</content_line_Item_Data>
+                        <content_line_Item_Data class="content_line_Items_Table_Data" id="itemDataName">${fio}</content_line_Item_Data>
                         <content_line_Item_Data class="content_line_Items_Table_Data">${tel}</content_line_Item_Data>
                         <content_line_Item_Data class="content_line_Items_Table_Data">${prech}</content_line_Item_Data>
                         <content_line_Item_Data class="content_line_Items_Table_Data">${mark}</content_line_Item_Data>

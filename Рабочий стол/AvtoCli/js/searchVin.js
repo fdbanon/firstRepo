@@ -6,6 +6,7 @@ let header_Button_SearchVin = document.querySelector('#header_Button_Search').ad
                 const keyParse = JSON.parse(getLocalStorageValue);
                 
                 if (keyParse.itog === header_Input_line_forSearchVin) {
+                    
                     function goInt() {
                         keyParse.stoimZ = Number.parseInt(keyParse.stoimZ);
                         keyParse.stoimR = Number.parseInt(keyParse.stoimR);
